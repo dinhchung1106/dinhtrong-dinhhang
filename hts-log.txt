@@ -1,0 +1,40 @@
+Chungdd3.49-2 launched on Mon, 24 Feb 2025 16:04:59 at https://www.chungdd.online/mau5 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webChungdd -q -%i -w https://www.chungdd.online/mau5 -O "/home/chungdd@kaopiz.local/websites/chung2" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; Chungdd 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by Chungdd Website chungdd [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:05:07	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://analytics.tiktok.com/api/v2/pixel
+16:05:25	Error: 	"Not Found" (404) at link https://statics.pancake.vn/ (from https://www.chungdd.online/mau5)
+16:05:26	Error: 	"Not Found" (404) at link https://content.pancake.vn/ (from https://www.chungdd.online/mau5)
+16:05:33	Warning: 	file not stored in cache due to bogus state (incomplete type with No Content (204), size 0): https://i.ytimg.com/generate_204
+16:05:46	Error: 	"Not Found" (404) at link https://fonts.gstatic.com/ (from https://www.chungdd.online/mau5)
+16:05:47	Error: 	"Not Found" (404) at link https://fonts.googleapis.com/ (from https://www.chungdd.online/mau5)
+16:05:48	Error: 	"Not Found" (404) at link https://analytics.tiktok.com/i18n/pixel (from https://www.chungdd.online/mau5)
+16:05:57	Warning: 	Found for https://m.youtube.com/
+16:05:57	Warning: 	File has moved from https://m.youtube.com/ to https://www.youtube.com/?app=desktop
+16:05:57	Warning: 	Warning: store text/html without scan: /home/chungdd@kaopiz.local/websites/chung2/m.youtube.com/index.html
+16:05:57	Warning: 	See Other for https://www.youtube.com/android-app://com.google.android.youtube/http/www.youtube.com/
+16:05:57	Warning: 	File has moved from https://www.youtube.com/android-app://com.google.android.youtube/http/www.youtube.com/ to https://www.youtube.com/android-app:/com.google.android.youtube/http/www.youtube.com
+16:05:57	Warning: 	Warning: store text/html without scan: /home/chungdd@kaopiz.local/websites/chung2/www.youtube.com/android-app_/com.google.android.youtube/http/www.youtube.com/index.html
+16:05:57	Warning: 	See Other for https://www.youtube.com/ios-app://544007664/vnd.youtube/www.youtube.com/
+16:05:57	Warning: 	File has moved from https://www.youtube.com/ios-app://544007664/vnd.youtube/www.youtube.com/ to https://www.youtube.com/ios-app:/544007664/vnd.youtube/www.youtube.com
+16:05:57	Warning: 	Warning: store text/html without scan: /home/chungdd@kaopiz.local/websites/chung2/www.youtube.com/ios-app_/544007664/vnd.youtube/www.youtube.com/index.html
+16:05:58	Error: 	"No Content" (204) at link https://i.ytimg.com/generate_204 (from https://www.youtube.com/)
+16:05:59	Warning: 	Warning: store text/css without scan: /home/chungdd@kaopiz.local/websites/chung2/fonts.googleapis.com/css2d628.css
+16:05:59	Warning: 	Warning: store text/css without scan: /home/chungdd@kaopiz.local/websites/chung2/www.youtube.com/s/_/ytmainappweb/_/ss/k=ytmainappweb.kevlar_base.kVtg3sdhyJg.L.X.O/am=AIAgAQ/d=0/rs=AGKMywEYnEN3eLRSoBAoFkWk-hgBN-NP4w.css
+16:06:01	Error: 	"Bad Request" (400) at link https://www.chungdd.online/webcake/v4/v (from https://www.chungdd.online/webcake/v4/a492f731-fcb6-4446-b229-0e29ade16dbe?v=1)
+16:06:01	Error: 	"Bad Request" (400) at link https://www.chungdd.online/webcake/v4/e.target (from https://www.chungdd.online/webcake/v4/a492f731-fcb6-4446-b229-0e29ade16dbe?v=1)
+16:06:01	Error: 	"Bad Request" (400) at link https://www.chungdd.online/webcake/v4/O (from https://www.chungdd.online/webcake/v4/a492f731-fcb6-4446-b229-0e29ade16dbe?v=1)
+16:06:01	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.youtube.com/opensearch?locale=en_US
+16:06:01	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.youtube.com/manifest.webmanifest
+16:06:05	Warning: 	Warning: store text/css without scan: /home/chungdd@kaopiz.local/websites/chung2/www.youtube.com/s/desktop/784cc796/cssbin/www-main-desktop-home-page-skeleton.css
+16:06:05	Warning: 	Warning: store text/css without scan: /home/chungdd@kaopiz.local/websites/chung2/www.youtube.com/s/desktop/784cc796/cssbin/www-onepick.css
+16:06:05	Warning: 	Warning: store text/css without scan: /home/chungdd@kaopiz.local/websites/chung2/www.youtube.com/s/desktop/784cc796/cssbin/www-main-desktop-watch-page-skeleton.css
+16:06:05	Error: 	"Bad Request" (400) at link https://www.chungdd.online/webcake/v4/www.webcake.me (from https://www.chungdd.online/webcake/v4/a492f731-fcb6-4446-b229-0e29ade16dbe?v=1)
+16:06:05	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.chungdd.online/webcake/v4/a492f731-fcb6-4446-b229-0e29ade16dbe?v=1)
+
+Chungdd Website Copier/3.49-2 mirror complete in 1 minutes 7 seconds : 70 links scanned, 46 files written (4925161 bytes overall) [3826225 bytes received at 57107 bytes/sec], 1564982 bytes transferred using HTTP compression in 29 files, ratio 26%, 1.3 requests per connection
+(11 errors, 18 warnings, 0 messages)

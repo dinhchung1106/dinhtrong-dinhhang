@@ -1,0 +1,16 @@
+# Chungdd Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.youtube.com	TRUE	/	FALSE	1999999999	GPS	1
+.youtube.com	TRUE	/	FALSE	1999999999	YSC	hYLa4giLFR8
+.youtube.com	TRUE	/	FALSE	1999999999	VISITOR_INFO1_LIVE	-RUGGrIUBBE
+.youtube.com	TRUE	/	FALSE	1999999999	VISITOR_PRIVACY_METADATA	CgJWThIEGgAgGA%3D%3D
+www.dropbox.com	TRUE	/	FALSE	1999999999	gvc	NzE0OTUxMTYwOTQ0NjYzOTc5NTIzNDczNzYwMzU3NDM2OTk2MA==
+dropbox.com	TRUE	/	FALSE	1999999999	t	O_KUMiAeHVqALs47uZBw9Jz9
+www.dropbox.com	TRUE	/	FALSE	1999999999	__Host-js_csrf	O_KUMiAeHVqALs47uZBw9Jz9
+www.dropbox.com	TRUE	/	FALSE	1999999999	__Host-ss	6tBX27If2E
+www.dropbox.com	TRUE	/	FALSE	1999999999	SameSite	Strict
+dropbox.com	TRUE	/	FALSE	1999999999	locale	en
+youtube.com	TRUE	/	FALSE	1999999999	__Secure-ROLLOUT_TOKEN	CPuJk9Kkzp2W4AEQ0oSBl_rbiwMY3taapvrbiwM%3D
+www.youtube.com	TRUE	/	FALSE	1999999999	SameSite	none
+webcake.io	TRUE	/	FALSE	1999999999	next-i18next	en
+
