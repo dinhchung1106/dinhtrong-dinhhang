@@ -7276,7 +7276,7 @@
                 <div id="w-tdidxoc8" class="p-absolute">
                     <form id="tdidxoc8" class="full-width full-height">
                         <div id="w-oiv62cw6" class="p-absolute">
-                            <div class="input-css full-width full-height"><input id="wi-oiv62cw6" type="text"
+                            <div class="input-css full-width full-height"><input id="name" type="text"
                                     class="full-width full-height" placeholder="Tên của bạn là?" name="full_name"
                                     required /></div>
                         </div>
@@ -7285,18 +7285,18 @@
                                 <span class="button-loader"></span>
                                 <div class="button-text full-width u-select-none"><span style="color: rgb(0, 0, 0);">GỬI
                                         NGAY</span></div>
-                                <button type="submit" formnovalidate style="display: none;"></button>
+                                <button type="submit" id="submit" formnovalidate style="display: none;"></button>
                             </div>
                         </div>
                         <div id="w-iz5s3j31" class="p-absolute">
-                            <div class="input-css full-width full-height"><input id="wi-iz5s3j31" type="text"
+                            <div class="input-css full-width full-height"><input id="relationship" type="text"
                                     class="full-width full-height" placeholder="Bạn là gì của Dâu Rể nhỉ?"
-                                    name="text_input_1" /></div>
+                                    name="text_input_1" required /></div>
                         </div>
                         <div id="w-00pnd81x" class="p-absolute">
-                            <div class="input-css full-width full-height"><input id="wi-00pnd81x" type="text"
+                            <div class="input-css full-width full-height"><input id="wish" type="text"
                                     class="full-width full-height" placeholder="Gửi lời chúc đến Dâu Rể nhé!"
-                                    name="text_input_2" /></div>
+                                    name="text_input_2" required /></div>
                         </div>
                     </form>
                 </div>
@@ -8147,6 +8147,50 @@
         };
         document.addEventListener("mousedown", handleInteraction);
         document.addEventListener("touchstart", handleInteraction);
+
+        // xac nhan tham du Chú Rể
+        document.addEventListener("DOMContentLoaded", function(){
+            const name = document.getElementById("name");
+            const relationship = document.getElementById("relationship");
+            const wish = document.getElementById("wish");
+            const submit = document.getElementById("submit");
+
+            submit.addEventListener("click", function(e){
+                e.preventDefault();
+
+                 if (!name.reportValidity() || !relationship.reportValidity() || !wish.reportValidity()) {
+                    return;
+                }
+
+                const data = {
+                    name: name.value,
+                    relationship: relationship.value,
+                    wish: wish.value
+                }
+                postGoogleSearch(data);
+            });
+
+            async function postGoogleSearch(data) {
+                const formURL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSe_28LU1jQu1ueC3dBXOwSc9InBrXaiQkCAs_Nh8xdVPawJJw/formResponse";
+                const formData = new FormData();
+                formData.append('entry.431958713', data.name);
+                formData.append('entry.1065127031', data.relationship);
+                formData.append('entry.259683518', data.wish);
+
+                fetch(formURL, {
+                    method: "POST",
+                    body: formData
+                }).then(() => {
+                    alert('Cảm ơn bạn!');
+                }).catch((error) => {
+                    alert('Cảm ơn bạn đã gửi lời chúc!');
+                    name.value = '';
+                    relationship.value = '';
+                    wish.value = '';
+                });
+            }
+        });
+
     </script>
 </body>
 
